@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\bin\Debug\netstandard2.0\calcu.deps.json
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\bin\Debug\netstandard2.0\calcu.dll
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\bin\Debug\netstandard2.0\ref\calcu.dll
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\bin\Debug\netstandard2.0\calcu.pdb
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calculator.xaml.g.cs
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.dll
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\ref\calcu.dll
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.pdb
+C:\Users\Administrator\source\repos\calcu\calcu\calcu\obj\Debug\netstandard2.0\calcu.csprojAssemblyReference.cache

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calcu.calculator"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Frame Padding="55" Margin="0,0,0,20" CornerRadius="30" BackgroundColor="#C7C8CC">
+                <Label x:Name="resultLabel" Text="0" FontSize="50" FontAttributes="Bold" HorizontalOptions="End" TextColor="Black"></Label>
+            </Frame>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="70"/>
+                   
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Text="C" Clicked="ClearButton_Clicked"  FontSize="Title" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="Orange" Grid.ColumnSpan="2"/>
+                <!--<Button Grid.Row="0" Grid.Column="1" Text="2" Clicked="OnclickedButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>-->
+                <Button Grid.Row="0" Grid.Column="2" Text="%" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>
+                <Button Grid.Row="0" Grid.Column="3" Text="+" Clicked="OnOperationButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>
+
+                <Button Grid.Row="1" Grid.Column="0" Text="1" TextColor="White" Clicked="OnclickedButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="2" TextColor="White" Clicked="OnclickedButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="1" Grid.Column="2" Text="3" TextColor="White" Clicked="OnclickedButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="1" Grid.Column="3" Text="-" Clicked="OnOperationButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>
+
+                <Button Grid.Row="2" Grid.Column="0" Text="4" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="2" Grid.Column="1" Text="5" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="6" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="2" Grid.Column="3" Text="*" Clicked="OnOperationButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>
+
+                <Button Grid.Row="3" Grid.Column="0" Text="7" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="3" Grid.Column="1" Text="8" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="3" Grid.Column="2" Text="9"  Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="3" Grid.Column="3" Text="/"  Clicked="OnOperationButton_Clicked" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>
+
+                <Button Grid.Row="4" Grid.Column="0" Text="." Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="4" Grid.Column="1" Text="0" Clicked="OnclickedButton_Clicked" TextColor="White" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#B4B4B8"/>
+                <Button Grid.Row="4" Grid.Column="2" Text="=" Clicked="EqualButton_Clicked"  FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="Orange" Grid.ColumnSpan="2"/>
+               <!-- <Button Grid.Row="4" Grid.Column="3" Text="=" FontSize="Large" FontAttributes="Bold" Padding="10" CornerRadius="50" BackgroundColor="#41C9E2"/>-->
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
